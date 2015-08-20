@@ -41,6 +41,6 @@
 	<classpathentry kind="lib" path="selenium-2.40.0/libs/xalan-2.7.1.jar"/>
 	<classpathentry kind="lib" path="selenium-2.40.0/libs/xercesImpl-2.10.0.jar"/>
 	<classpathentry kind="lib" path="selenium-2.40.0/libs/xml-apis-1.4.01.jar"/>
-	<classpathentry kind="lib" path="F:/SeleniumScripts/AutoTest/Day03/lib/jxl.jar"/>
+	<classpathentry kind="lib" path="/Users/ksubbu/Downloads/jxl-2.6.12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

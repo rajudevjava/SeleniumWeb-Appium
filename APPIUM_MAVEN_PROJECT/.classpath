@@ -92,5 +92,7 @@
 	<classpathentry kind="lib" path="/Users/ksubbu/Downloads/selenium class/selenium-2.46.0/libs/xalan-2.7.2.jar"/>
 	<classpathentry kind="lib" path="/Users/ksubbu/Downloads/selenium class/selenium-2.46.0/libs/xercesImpl-2.11.0.jar"/>
 	<classpathentry kind="lib" path="/Users/ksubbu/Downloads/selenium class/selenium-2.46.0/libs/xml-apis-1.4.01.jar"/>
+	<classpathentry kind="lib" path="/Users/ksubbu/Downloads/gson-2.3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/ksubbu/Downloads/jxl-2.6.12.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

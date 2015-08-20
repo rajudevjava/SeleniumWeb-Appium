@@ -1,7 +1,5 @@
 package com.touchactions;
 
-import io.appium.java_client.AppiumDriver;
-
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -9,8 +7,10 @@ import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
 
+import io.appium.java_client.android.AndroidDriver;
+
 public class Touch_Actions {
-	AppiumDriver driver;
+	AndroidDriver driver;
 
 	@Test
 	public void xxx() throws MalformedURLException {
@@ -24,6 +24,6 @@ public class Touch_Actions {
 		capabilities.setCapability("appActivity",
 				"com.javacodegeeks.android.dragndroptest.MainActivity");
 
-		driver = new AppiumDriver(new URL("http://127.0.0.1:4723/wd/hub"),
+		driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"),
 				capabilities);	}
 }

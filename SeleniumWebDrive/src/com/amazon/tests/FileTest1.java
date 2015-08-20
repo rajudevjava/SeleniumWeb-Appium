@@ -3,6 +3,7 @@ package com.amazon.tests;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
 import io.appium.java_client.AppiumDriver;
@@ -17,8 +18,10 @@ public class FileTest1 {
 		driver.get("http://www.google.com");
 		Thread.sleep(1000);
 		driver.findElement(By.id("lst-ib")).sendKeys("subbu");
-		//((AppiumDriver) driver).sendKeyEvent(AndroidKeyCode.ENTER);
-		
+		Thread.sleep(1000);
+		 WebElement subbu = driver.findElement(By.id("resultStats"));
+	       System.out.println(subbu.getText());
+
 	
 	    
 	}

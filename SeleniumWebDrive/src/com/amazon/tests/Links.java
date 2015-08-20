@@ -1,18 +1,27 @@
 package com.amazon.tests;
 import junit.framework.Assert;
 
+import java.net.MalformedURLException;
+import java.net.URL;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 
 
 public class Links {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args) throws MalformedURLException {
+		DesiredCapabilities dc= DesiredCapabilities.firefox();
+		dc.setCapability("version", "5");
+		dc.setCapability("platform", "XP");
 
-		WebDriver driver=new FirefoxDriver();
+	WebDriver driver = new RemoteWebDriver(
+	                new URL("http://raju.devjava:ced38344-fc2b-4129-a325-cd163f8c0b9d@ondemand.saucelabs.com:80/wd/hub"),
+	                dc);
 		driver.get("http://www.ebay.com/");
 		//Count of the Link in the Entire Page
 	//	System.out.println("Links in the Page");

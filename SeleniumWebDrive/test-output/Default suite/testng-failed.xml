@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.amazon.tests.Appiu">
+      <class name="com.amazon.tests.SouceLabTest">
         <methods>
-          <include name="testCal"/>
-          <include name="setUp"/>
+          <include name="setup"/>
         </methods>
-      </class> <!-- com.amazon.tests.Appiu -->
+      </class> <!-- com.amazon.tests.SouceLabTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
