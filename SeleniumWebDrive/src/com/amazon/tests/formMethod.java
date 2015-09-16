@@ -32,7 +32,7 @@ System.out.println(" After clikcing on Multi city Radio button");
 driver.findElement(By.xpath(".//*[@id='start_date_sec']/span[3]")).click();
 
 driver.findElement(By.xpath(".//*[@id='ui-datepicker-div']/div[2]/table/tbody/tr[5]/td[3]/a")).click();
-
+//
 int i=0;
 
 while(i<5)
