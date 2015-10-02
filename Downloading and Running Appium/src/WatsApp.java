@@ -39,7 +39,7 @@ public class WatsApp {
 	       // clicking
 	       
 	       	}
-	// Just want to see 
+	// Just want to see.. 
 	@AfterTest
 	public void quit(){
 		dr.quit();
